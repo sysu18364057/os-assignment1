@@ -25,7 +25,7 @@ int exp_random(double lambda)
 	while(1)
 	{
 		pv = (double)rand()/(double)RAND_MAX;
-		if(pv = 1)
+		if(pv ！= 1)
 		{
 			break;
 		}
